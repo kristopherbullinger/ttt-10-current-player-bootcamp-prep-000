@@ -8,5 +8,6 @@ end
 
 def current_player(array)
   x = turn_count(array)
-  x % 2 == 0 ? return "X" : return "O"
+  x % 2 == 0 ? token = "X" : token = "O"
+  return token
 end 
