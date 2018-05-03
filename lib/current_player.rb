@@ -5,3 +5,8 @@ def turn_count(array)
   end 
   return counter
 end
+
+def current_player(array)
+  x = turn_count(array)
+  x % 2 == 0 ? return "X" : return "O"
+end 
